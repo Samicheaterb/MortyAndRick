@@ -8,7 +8,7 @@
 import Foundation
 
 struct SBCharacter: Codable {
-  let id: Int
+  let id: Int?
   let name: String
   let status: SBCharacterStatus
   let species: String
