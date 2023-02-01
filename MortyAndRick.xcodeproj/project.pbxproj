@@ -19,6 +19,11 @@
 		3B0CEE5E298AB24600BEC812 /* SBLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEE5D298AB24600BEC812 /* SBLocationViewController.swift */; };
 		3B0CEE60298AB25300BEC812 /* SBEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEE5F298AB25300BEC812 /* SBEpisodeViewController.swift */; };
 		3B0CEE62298AB26A00BEC812 /* SBSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEE61298AB26A00BEC812 /* SBSettingsViewController.swift */; };
+		3B0CEE64298ABAD000BEC812 /* SBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEE63298ABAD000BEC812 /* SBService.swift */; };
+		3B0CEE66298ABADD00BEC812 /* SBRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEE65298ABADD00BEC812 /* SBRequest.swift */; };
+		3B0CEE68298ABB6E00BEC812 /* SBEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEE67298ABB6E00BEC812 /* SBEndpoint.swift */; };
+		3B0CEE6A298ABD0400BEC812 /* SBOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEE69298ABD0400BEC812 /* SBOrigin.swift */; };
+		3B0CEE6C298ABD8500BEC812 /* SBSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEE6B298ABD8500BEC812 /* SBSingleLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		3B0CEE5D298AB24600BEC812 /* SBLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBLocationViewController.swift; sourceTree = "<group>"; };
 		3B0CEE5F298AB25300BEC812 /* SBEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBEpisodeViewController.swift; sourceTree = "<group>"; };
 		3B0CEE61298AB26A00BEC812 /* SBSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBSettingsViewController.swift; sourceTree = "<group>"; };
+		3B0CEE63298ABAD000BEC812 /* SBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBService.swift; sourceTree = "<group>"; };
+		3B0CEE65298ABADD00BEC812 /* SBRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBRequest.swift; sourceTree = "<group>"; };
+		3B0CEE67298ABB6E00BEC812 /* SBEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBEndpoint.swift; sourceTree = "<group>"; };
+		3B0CEE69298ABD0400BEC812 /* SBOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBOrigin.swift; sourceTree = "<group>"; };
+		3B0CEE6B298ABD8500BEC812 /* SBSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBSingleLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,8 @@
 				3B0CEE55298AB15700BEC812 /* SBLocation.swift */,
 				3B0CEE57298AB17600BEC812 /* SBCharacter.swift */,
 				3B0CEE59298AB18500BEC812 /* SBEpisode.swift */,
+				3B0CEE69298ABD0400BEC812 /* SBOrigin.swift */,
+				3B0CEE6B298ABD8500BEC812 /* SBSingleLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -116,6 +128,9 @@
 		3B0CEE4F298AB07900BEC812 /* APIClients */ = {
 			isa = PBXGroup;
 			children = (
+				3B0CEE63298ABAD000BEC812 /* SBService.swift */,
+				3B0CEE65298ABADD00BEC812 /* SBRequest.swift */,
+				3B0CEE67298ABB6E00BEC812 /* SBEndpoint.swift */,
 			);
 			path = APIClients;
 			sourceTree = "<group>";
@@ -221,11 +236,16 @@
 			files = (
 				3B0CEE5A298AB18500BEC812 /* SBEpisode.swift in Sources */,
 				3B0CEE58298AB17600BEC812 /* SBCharacter.swift in Sources */,
+				3B0CEE6A298ABD0400BEC812 /* SBOrigin.swift in Sources */,
 				3B0CEE5C298AB23100BEC812 /* SBCharacterController.swift in Sources */,
+				3B0CEE6C298ABD8500BEC812 /* SBSingleLocation.swift in Sources */,
 				3B0CEE3C298AAE8D00BEC812 /* SBTabViewController.swift in Sources */,
 				3B0CEE56298AB15700BEC812 /* SBLocation.swift in Sources */,
+				3B0CEE64298ABAD000BEC812 /* SBService.swift in Sources */,
+				3B0CEE68298ABB6E00BEC812 /* SBEndpoint.swift in Sources */,
 				3B0CEE60298AB25300BEC812 /* SBEpisodeViewController.swift in Sources */,
 				3B0CEE38298AAE8D00BEC812 /* AppDelegate.swift in Sources */,
+				3B0CEE66298ABADD00BEC812 /* SBRequest.swift in Sources */,
 				3B0CEE5E298AB24600BEC812 /* SBLocationViewController.swift in Sources */,
 				3B0CEE62298AB26A00BEC812 /* SBSettingsViewController.swift in Sources */,
 				3B0CEE3A298AAE8D00BEC812 /* SceneDelegate.swift in Sources */,
